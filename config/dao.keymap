@@ -17,13 +17,6 @@
 &mt { quick_tap_ms = <200>; };
 
 / {
-    chosen {
-        zmk,physical_layout = &dao_crkbd_layout;
-        // zmk,physical_layout = &dao_full_layout;
-    };
-};
-
-/ {
         keymap {
                 compatible = "zmk,keymap";
 
