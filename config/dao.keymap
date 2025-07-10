@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 450
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 3
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 1
 
 #include <dt-bindings/zmk/pointing.h>
 
@@ -36,8 +36,8 @@
 &msc {
     x-input-code = <INPUT_REL_HWHEEL>;
     y-input-code = <INPUT_REL_WHEEL>;
-    time-to-max-speed-ms = <200>;
-    acceleration-exponent = <0>;
+    time-to-max-speed-ms = <50>;
+    acceleration-exponent = <1>;
 };
 
 / {
